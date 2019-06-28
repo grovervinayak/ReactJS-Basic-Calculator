@@ -1,0 +1,47 @@
+.top-inside
+{
+	width: 450px;
+	margin-left: 33%;
+	margin-top: 10%;
+	border: 1px solid #707070;
+}
+.screen-out
+{
+	border-bottom: 1px solid #707070;
+	text-align: right;
+	padding: 20px 14px;
+}
+.button-whole
+{
+	padding: 14px;
+}
+.button-in
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.single-button
+{
+	flex:0 0 23%;
+	height:87px;
+	margin-bottom: 14px;
+	border: 1px solid;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background: #F5F5F5;
+	cursor: pointer;
+	transition: 0.1s;
+}
+.single-button p
+{
+	margin-bottom: 0px;
+	font-size: 38px;
+	font-weight: 900;
+}
+.single-button:hover
+{
+	background: #eaeaea;	
+}
